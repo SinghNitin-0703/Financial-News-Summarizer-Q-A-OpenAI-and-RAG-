@@ -1,9 +1,9 @@
-\# 📈 Financial News Q&A with RAG and Azure OpenAI
+\ 📈 Financial News Q&A with RAG and Azure OpenAI
 
 This project is a powerful Question-Answering application that leverages
 Retrieval-Augmented Generation (RAG) to provide insights from online
 financial news articles. Users can input a list of URLs, and the system
-builds a dynamic knowledge base to answer questions based \*only\* on
+builds a dynamic knowledge base to answer questions based \only\ on
 the content of those articles. The entire interface is built with Gradio
 for easy and interactive use.
 
