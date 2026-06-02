@@ -45,6 +45,32 @@ local similarity search.
 
 **Environment Management**: \`python-dotenv\`
 
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone <your-repo-url>
+   cd News_summ_RAG_and_fewshot
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure Environment Variables**:
+   Create a file named `OpenAI_APIkey.env` in the root directory and add your Azure OpenAI credentials:
+   ```env
+   AZURE_OPENAI_ENDPOINT="your_azure_openai_endpoint"
+   AZURE_OPENAI_API_KEY="your_azure_openai_api_key"
+   OPENAI_API_VERSION="2024-02-01"
+   ```
+
+4. **Run the Application**:
+   ```bash
+   python app.py
+   ```
+
 **🚀 How It Works**
 
 The application follows a sophisticated Retrieval-Augmented Generation

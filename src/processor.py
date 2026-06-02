@@ -1,7 +1,7 @@
 import asyncio
 from langchain_community.document_loaders import AsyncHtmlLoader
 from langchain_community.document_transformers import Html2TextTransformer
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 async def scrape_and_process_urls(urls):
     loader = AsyncHtmlLoader(urls)

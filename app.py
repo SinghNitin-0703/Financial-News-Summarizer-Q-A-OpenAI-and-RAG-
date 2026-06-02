@@ -1,6 +1,9 @@
 import gradio as gr
 import asyncio
 import nest_asyncio
+import os
+
+os.environ["USER_AGENT"] = "FinancialNewsSummarizer/1.0"
 from src.engine import get_llm, get_embeddings
 from src.processor import scrape_and_process_urls
 from src.model import create_vector_store, get_rag_chain

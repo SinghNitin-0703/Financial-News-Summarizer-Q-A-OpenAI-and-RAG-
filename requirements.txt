@@ -1,0 +1,9 @@
+gradio
+nest-asyncio
+python-dotenv
+langchain
+langchain-text-splitters
+langchain-openai
+langchain-community
+faiss-cpu
+html2text
