@@ -1,0 +1,18 @@
+# Environments
+.env
+*.env
+!example.env
+
+
+# Python caching
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Checkpoints
+.ipynb_checkpoints/
+
+# Vector stores
+faiss_index/
