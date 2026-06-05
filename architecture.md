@@ -121,6 +121,8 @@ News_summ_RAG_and_fewshot/
 │
 ├── app.py                  ← 🚀 Entry point, API + UI
 ├── requirements.txt        ← 📦 Dependencies
+├── .gitignore              ← 🙈 Git ignore rules
+├── example.env             ← 📝 Template for environment variables
 ├── OpenAI_APIkey.env       ← 🔑 Azure credentials (user-created)
 ├── README.md               ← 📖 Documentation
 ├── architecture.md         ← 🏗️ This file

@@ -59,11 +59,11 @@ local similarity search.
    ```
 
 3. **Configure Environment Variables**:
-   Create a file named `OpenAI_APIkey.env` in the root directory and add your Azure OpenAI credentials:
+   Create a file named `OpenAI_APIkey.env` in the root directory and add your Azure OpenAI credentials. You can use the provided `example.env` as a template:
    ```env
    AZURE_OPENAI_ENDPOINT="your_azure_openai_endpoint"
    AZURE_OPENAI_API_KEY="your_azure_openai_api_key"
-   OPENAI_API_VERSION="2024-02-01"
+   OPENAI_API_VERSION="2024-12-01-preview"
    ```
 
 4. **Run the Application**:
